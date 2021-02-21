@@ -2,9 +2,9 @@
 
 ## Manual discrete scale
 
-Create your now scale using ```scale_shape_manual(), scale_linetype_manual(),scale_colour_manual()```.
+Create your new  scale using ```scale_shape_manual(), scale_linetype_manual(),scale_colour_manual()```.
 
-```
+```{r}
 plot +
      scale_colour_manual(
           values = c("red", "orange", "green","blue")
@@ -18,3 +18,5 @@ my_colours <- c(           #Map discrete vars to colours
      )
 
 plot + scale_colour_manual(values = my_colours)
+
+```
